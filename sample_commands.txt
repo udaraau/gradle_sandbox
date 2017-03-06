@@ -1,0 +1,2 @@
+ gradle -b condition.gradle -q distribution
+ gradle -b condition.gradle -q release
