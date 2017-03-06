@@ -1,0 +1,11 @@
+task taskY (dependsOn: 'taskX' ) {
+  doLast {
+    println "Task Y executed"
+  }
+}
+
+task taskX {
+  doLast {
+    println "Task X executed"
+  }
+}

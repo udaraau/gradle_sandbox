@@ -1,0 +1,12 @@
+task hello {
+  doLast {
+    println "Hello"
+  }
+}
+
+
+task intro (dependsOn: hello) {
+  doLast {
+    println "I am Gradle"
+  }
+}
